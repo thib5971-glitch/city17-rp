@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>City 17 RP</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <div id="game"></div>
+  <div id="night"></div>
+
+  <div id="hud" hidden>
+    <div id="hud-top"><span id="clock">08:00</span><span id="alert"></span></div>
+    <div id="hud-stats"></div>
+    <div id="hint"></div>
+  </div>
+
+  <div id="chat" hidden>
+    <div id="chat-log"></div>
+    <input id="chat-input" maxlength="240" placeholder="Entrée pour parler · /aide" autocomplete="off" />
+  </div>
+
+  <form id="login">
+    <h1>CITY 17</h1>
+    <p class="sub">Bienvenue. Bienvenue à City 17.</p>
+    <label>Nom du personnage <input id="name" maxlength="24" required placeholder="Ex : Marc Dubois" /></label>
+    <label>Faction
+      <select id="faction">
+        <option value="citizen">Citoyen</option>
+        <option value="cwu">Union des Travailleurs (CWU)</option>
+        <option value="cp">Protection Civile</option>
+        <option value="rebel">Résistance</option>
+      </select>
+    </label>
+    <button type="submit">Descendre du train</button>
+    <p id="login-error"></p>
+  </form>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
