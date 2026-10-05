@@ -1,9 +1,0 @@
-{
-  "name": "city17-rp",
-  "private": true,
-  "version": "0.2.0",
-  "type": "module",
-  "scripts": { "dev": "vite", "build": "vite build" },
-  "dependencies": { "phaser": "^3.90.0", "trystero": "^0.26.0" },
-  "devDependencies": { "vite": "^6.0.0", "vite-plugin-singlefile": "^2.3.0" }
-}
