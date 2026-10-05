@@ -1,0 +1,12 @@
+{
+  "name": "@city17/client",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "vite build", "preview": "vite preview" },
+  "dependencies": {
+    "@city17/shared": "0.1.0",
+    "colyseus.js": "^0.16.0",
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": { "vite": "^6.0.0" }
+}

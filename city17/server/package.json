@@ -1,0 +1,11 @@
+{
+  "name": "@city17/server",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "dev": "node --watch src/index.js", "start": "node src/index.js" },
+  "dependencies": {
+    "@city17/shared": "0.1.0",
+    "colyseus": "^0.16.0",
+    "@colyseus/schema": "^3.0.0"
+  }
+}
